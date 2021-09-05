@@ -11,7 +11,6 @@ It is written in PHP 7.3 and above. HofUniversityCanteenAPI is not supported nor
 ## Documentation
 Just copy the "HofUniversityCanteenAPI"-folder in your project and import the the used functions:
 ```
-<?php
 include "HofUniversityCanteenAPI/Helper.php";
 use function HofUniversityCanteenAPI\convertAllUnconvertedDataToWeek;
 use function HofUniversityCanteenAPI\convertWeekToFormatedGermanString;
