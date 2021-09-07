@@ -3,7 +3,7 @@
 ![PHP](https://img.shields.io/badge/PHP-7.3-9cf)
 
 ## Introduction
-**HofUniversityCanteenAPI** is a small functional libary for accessing and filtering the canteen plan of Hof University.<br>
+**HofUniversityCanteenAPI** is a small functional libary for accessing and filtering the canteen plan of Hof University.<br><br>
 It is written in PHP 7.3 and above. HofUniversityCanteenAPI is not supported nor endorsed by Studentenwerk Oberfranken or Hochschule Hof.
 <br>
 <br>
