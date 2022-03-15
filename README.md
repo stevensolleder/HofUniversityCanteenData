@@ -30,7 +30,7 @@ You can use the following self-explanatory functions:<br>
 - `convertWeekToFormatedGermanString(week:Week):string`<br><br>
 
 ## Testing
-The library was tested manually. We could not find any bugs, but there still may be some.
+The library was tested manually. I could not find any bugs, but there still may be some.
 <br><br>
 
 ## Example
