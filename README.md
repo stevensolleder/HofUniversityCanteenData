@@ -8,7 +8,10 @@ It is written in PHP 7.3 and above. HofUniversityCanteenAPI is not supported nor
 <br>
 <br>
 
-## Documentation
+## Data structure
+<img src="https://github.com/stevensolleder/HofUniversityCanteenAPI/blob/main/screenshots/datastructure.png" width="25%" img><br><br>
+
+## Functions
 Just copy the "HofUniversityCanteenAPI"-folder in your project and import the the used functions:
 ```
 include "HofUniversityCanteenAPI/Helper.php";
@@ -26,8 +29,9 @@ You can use the following self-explanatory functions:<br>
 - `filterWeekByAttributeIdsAndDayNumber(week:Week, attributeIds:array, dayNumber:int):Week`<br>
 - `convertWeekToFormatedGermanString(week:Week):string`<br><br>
 
-The API uses the following data structure:<br><br>
-<img src="https://github.com/stevensolleder/HofUniversityCanteenAPI/blob/main/screenshots/datastructure.png" width="25%" img><br><br>
+## Testing
+The library was tested manually. We could not find any bugs, but there still may be some.
+<br><br>
 
 ## Example
 You can find a realistic example [here](https://github.com/stevensolleder/HofUniversityCanteenAPI/blob/main/Example.php).<br><br>
