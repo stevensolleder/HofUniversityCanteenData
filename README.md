@@ -9,7 +9,31 @@ It is written in PHP 7.3 and above. HofUniversityCanteenAPI is not supported nor
 <br>
 
 ## Data structure
-<img src="https://github.com/stevensolleder/HofUniversityCanteenAPI/blob/main/screenshots/datastructure.png" width="25%" img><br><br>
+```mermaid
+classDiagram
+    Week "1" -- "n" Day
+    Day "1" -- "n" Dish
+
+    class Week{
+      +array days
+    }
+
+    class Day{
+      +string name
+      +DateTime date
+      +array mainCourses
+      +array sideDishes
+      +array desserts
+      +array salads
+    }
+
+    class Dish{
+      +string name
+      +array attributes
+      +double collegeStudentPrice
+    }      
+```
+<br>
 
 ## Functions
 Just copy the "HofUniversityCanteenAPI"-folder in your project and import the the used functions:
