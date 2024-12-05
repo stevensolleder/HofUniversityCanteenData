@@ -1,9 +1,9 @@
 <?php
-include "HofUniversityCanteenAPI/Helper.php";
-use function HofUniversityCanteenAPI\convertAllUnconvertedDataToWeek;
-use function HofUniversityCanteenAPI\convertWeekToFormatedGermanString;
-use function HofUniversityCanteenAPI\downloadAllUnconvertedData;
-use function HofUniversityCanteenAPI\filterWeekByAttributeIdsAndDayNumber;
+include "HofUniversityCanteenData/Helper.php";
+use function HofUniversityCanteenData\convertAllUnconvertedDataToWeek;
+use function HofUniversityCanteenData\convertWeekToFormatedGermanString;
+use function HofUniversityCanteenData\downloadAllUnconvertedData;
+use function HofUniversityCanteenData\filterWeekByAttributeIdsAndDayNumber;
 
 
 

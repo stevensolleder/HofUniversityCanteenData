@@ -1,5 +1,5 @@
 <?php
-namespace HofUniversityCanteenAPI;
+namespace HofUniversityCanteenData;
 
 
 
