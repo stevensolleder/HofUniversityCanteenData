@@ -1,4 +1,4 @@
-# PersistentObjectStorage
+# HofUniversityCanteenData
 ![Release](https://img.shields.io/badge/Release-1.0.0-9cf)
 ![PHP](https://img.shields.io/badge/PHP-7.3-9cf)
 
